@@ -1,0 +1,126 @@
+/*整体模块大概star*/
+.resume {
+    height: 1000px;
+    background: rgba(2, 2, 2, 0.9);
+    overflow: hidden;
+    position: relative;
+    opacity: 0;
+}
+.resume h1 {
+    height: 300px;
+    width: 100%;
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+    align-self: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;   /*align-items属性定义项目在交叉轴上如何对齐*/
+    -webkit-box-pack: center;/*box-pack属性指定一个box的子元素时，被置于该框的子元素小于该框。*/
+    -ms-flex-pack: center;
+    justify-content: center; /*justify-content属性定义了项目在主轴上的对齐方式*/
+    color: white;
+    font-size: 10em;
+    letter-spacing: 5px;
+    margin: 0;
+    background-image: url("image/01.jpg");
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+body {
+    background: url("image/01.jpg")no-repeat center center fixed;
+    background-size: cover;
+}
+
+main {
+    background: url("image/72.jpg")no-repeat center center fixed;
+    opacity: 0.9;
+    /*background: white;*/
+    min-height: 500px;
+    width: 80%;
+    margin: 30px auto;
+}
+/*整体模块大概send*/
+
+/*header--start*/
+.head{
+    width: 100%;
+    height: 50px;
+    /*border: 2px solid white;*/
+    color: white;
+    font-size: 24px;
+    display: block;
+}
+.header{
+    width: 50%;
+    height: 50px;
+    margin: 0 auto;
+}
+.header ul li{
+    float: left;
+    list-style: none;
+    margin-right: 50px;
+}
+.header ul li a{
+    color: white;
+    text-decoration: none;
+}
+.header ul li:hover{
+    text-decoration: underline;
+}
+
+.header-image{
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.qz{
+    width: 50%;
+    margin: auto;
+}
+.qz p{
+    font-size: 22px;
+    text-align: center;
+}
+/*header--end*/
+
+/*main--start*/
+.zj {
+    overflow: hidden;
+    width: 700px;
+    height: 500px;
+    margin: auto;
+}
+
+.zj .p1{
+    font-size: 30px;
+    text-align: center;
+}
+.zj .p2{
+    color: grey;
+    font-size: 18px;
+    text-align: center;
+}
+.zj .p3{
+    font-size: 20px;
+    color: white;
+}
+.zj ul li{
+    font-size: 20px;
+    color: #ffffff;
+    list-style: none;
+}
+.zj .p2 span{
+    color: red;
+}
+.zj .lx li{
+    text-align: center;
+    padding: 10px;
+}
+/*main--end*/
